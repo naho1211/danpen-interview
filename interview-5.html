@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav.css" />        
+    <title>断片の価値の追求</title>
+  </head>
+
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.addEventListener("load", () => {
+        const pageTopButton = document.getElementById("pageTopButton");
+        pageTopButton.addEventListener("click", function () {
+          const me = arguments.callee;
+          const nowY = window.pageYOffset;
+          window.scrollTo(0, Math.floor(nowY * 0.9));
+          if (nowY > 0) {
+            window.setTimeout(me, 10);
+          }
+        });
+      });
+    </script>
+
+<header class="bg-light">
+  <nav class="navbar navbar-expand-xl navbar-light bg-light  fixed-top">
+    <div class="container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://shinonomekazan.com/"><img class="img-fluid" src="images/logo-wide02.jpg" alt=""></a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHumburger" aria-controls="navbarHumburger" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarHumburger">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img class="img-fluid" src="images/danpen_icon.png"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">TOP<span>トップページ</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#MESSAGE">MESSAGE<span>代表インタビュー</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#WORK">PEOPLE<span>社員紹介</span></a>
+          </li>
+          <li class="nav-item entry_nav">
+            <a class="nav-link2" href="https://shinonomekazan.com/jobs.html">ENTRY<span>採用情報</span></a>
+          </li>
+        </ul>
+      </div>
+    
+  </div>
+  </nav>
+
+
+</header>
+
+    <main>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-11 col-sm-11 col-lg-9 mt-3 mb-3 pt-3 pb-3">
+            <h1 class="interviewTitle h2">
+              株式会社 東雲火山<br />断片の価値の追求とは何か？？
+            </h1>
+
+            <p class="askText">
+              こんにちは。東雲火山の「断片」の1人、ライターのミコメ
+              ナホと申します。
+              <br />
+              ここでは、「断片」としての働き方を実践している私たちの仲間をご紹介します。
+            </p>
+
+            <div class="border my-5 shadow-sm">
+              <div
+                class="
+                  w-100
+                  text-center
+                  bg-info
+                  text-white
+                  font-weight-bold
+                  rounded-top
+                  h4
+                  px-2
+                  py-3
+                  mb-0
+                "
+              >
+              未経験でも臆さずトライ！バイタリティあふれるSさん
+              </div>
+              <div class="d-flex px-md-4 px-1 py-4 iconBackColor">
+                <div class="text-center">
+                  <img
+                    src="images/prof-icon-interview-5.jpg"
+                    class="rounded-circle mr-md-5 mx-2 w-50"
+                  />
+                </div>
+                <div class="box-content font-weight-bold text-secondary">
+                  Sさん<br />
+                  職種：事務・経理<br />
+                  特技： 接客業で培った、「誰とでも話せる」技術。<br />手話もちょこっとできます！
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <h5 class="ask">★東雲火山でのお仕事内容と、スケジュールを教えてください。</h5>
+
+            <p>
+                毎週水曜日に、8時間のリモート勤務をしています。現在担当しているのは、事務・経理といったバックオフィス業務です。
+経験豊富な先輩社員がいるので、会社のことも含めいろいろと勉強中です！
+
+            </p>
+
+            <h5 class="ask">★未経験でのご入社ということですが、前職ではどのようなお仕事を？
+                </h5>
+
+            <p>
+                大学で服飾デザインを学んだのですが、つくる方には進まず、接客の道を選びました。人とお話しするのが大好きなので、初めてのアルバイトで接客の楽しさを知ってから、人と接する仕事一筋で進んできました。いくつか仕事を経験する中で、とあるアミューズメント施設に長年勤務し、お客様からも、仕事仲間からもたくさんの学びを得ることができました。ここでの経験は、自分の糧であり、行動の指針にもなっていると思います。
+            </p>
+
+            <h5 class="ask">
+                ★そこからどうして、経理というお仕事を選ばれたんでしょうか？              
+            </h5>
+            <p>
+               前職では本当に真摯に取り組んだし、自分の努力も正当に評価されていて、やりがいがありました。一方で、どこか「やりきった」という達成感も抱いていたんです。自分のキャリアについて、こんな場面でこんな役割を果たした、と「経験値」として話せるようにもう少しアップデートしたいという気持ちが生まれていました。そんなタイミングでコロナ禍が起こり、お客様に足を運んでいただく必要のあるアミューズメント施設での仕事は多大なる影響を受けました。「今まで通り」がまるで通用しない日々の中で、働き方について考える機会が生まれたんですね。娘を一人で育てているので、子どものためにも「家にいながらできる仕事」を探そうと思い立ちました。そしてたまたま、「未経験でも可」とあった東雲火山の募集を目にし、思い切って応募したのがきっかけです。
+            </p>
+            <h5 class="ask">
+              ★東雲火山での勤務は週１日ということですが、他にお仕事は？                
+          </h5>
+          <p>
+              時間の融通が利くこともあって、お弁当やミールキットを宅配する仕事を掛け持ちしています。こちらの仕事でも、事務作業や経理的な業務もしていますが、やっぱりお客様の顔を直接見られる配達の時間が楽しいんですよね。待っていてくださるお客様のために、日々自転車を漕ぎまくっています！
+          </p>   
+
+            <figure class="mt-5 mb-5">
+              <img
+                src="images/interview05_p2.jpg"
+                class="figure-img overWidth img-fluid"
+              />
+              <figcaption class="figure-caption text-right">
+                配達の途中で見かける花々から、季節の移ろいを感じる時間も大好きです
+              </figcaption>
+            </figure>         
+
+            <h5 class="ask">
+              ★本当に、お客様に喜んでもらうのがお好きなんですね。<br>
+週1日でもお母さまが在宅でお仕事されるようになって、お子さんの反応はいかがですか？
+
+            </h5>
+            <p>
+                子どもは私が家にいることを望んでいるに違いない、と勝手に思っていたのですが、実は気づかぬうちに成長してきていて、あれっ？そうでもないの？という感じです（笑）。<br>
+小学生ですが、家事などは小さな頃から一緒にやったり、私がやるのを見ていたからなのか結構できることが増えていて、我が子ながら驚くこともありますね。</p>
+            
+
+　　　　　　<p>子どもには、本人がやりたいということはできる限りやらせてきました。家事のお手伝いもそうですし、習い事なども、興味があることにはぜひトライしてほしい。できることの選択肢を増やしてあげるのが、親である私の役割かなと思っています。子ども本人が楽しいと思うことが一番なので、私から何かを強制することはしていません。今のところ好奇心旺盛にいろいろな習い事を経験して楽しんでいるようです。
+
+            </p>
+            </p>
+
+            <figure class="mt-5 mb-5">
+              <img
+                src="images/interview05_p3.jpg"
+                class="figure-img overWidth img-fluid"
+              />
+              <figcaption class="figure-caption text-right">
+                手先を使う作業が得意。年に1～2度の遠足の日は、気合を入れて娘の大好きなキャラ弁をつくります
+              </figcaption>
+            </figure>
+
+　　　　　　<p>高学年になったので、お小遣いを渡すために「給料制」を導入しました。それも一定の額を定期的に渡すのではなくて、「歩合給」にしたんです！基本給に加えて、「素敵な話をして私を感動させてくれたから〇ポイント」「疲れて帰った日に家事をしてくれてあったから〇ポイント」という具合で、毎月きちんと明細付きで渡しています。家でもしっかり、経理の仕事をしているんですよ(笑)。
+
+            </p>　　
+            <h5 class="ask">
+              ★お子さんの成長も楽しみですね！<br>
+これからのビジョンを教えてください。
+
+            </h5>
+            <p>
+              今はどちらの仕事もエンジョイしていますが、子ども同様に私もいろいろなことを勉強して、トライしたいと思っています。
+経理の仕事ももっと極めたいし、子どもが興味を持っている動画編集などのジャンルも一緒に学べたら面白そうだな、とも思っています。東雲火山なら、何かしらのスキルを身に着ければ新たな仕事につなげられそうですよね。と考えると、今よりもう少し、東雲火山でお仕事をする比率を増やしていけたら良いなと思っています
+
+
+
+            <h5 class="ask">
+                人を楽しませることが大好き！とおっしゃるＳさん。明るい笑顔とあふれるバイタリティで、新たなスキルもどんどん吸収されていくに違いありません。お話、ありがとうございました
+            </h5>
+
+
+
+
+
+            <p>
+              あなたにできる仕事、あなたにできる働き方が、東雲火山で発掘できるかもしれません。
+              <br />
+              興味のある方は、<a href="https://shinonomekazan.com/jobs.html"
+                >こちら</a
+              >からご連絡ください。
+            </p>
+
+            <div
+              class="
+                my-5
+                pt-5
+                row
+                w-100
+                align-items-center
+                justify-content-center
+              "
+            >
+              <div
+                class="
+                  border
+                  shadow-sm
+                  rounded
+                  text-center
+                  flex-fill
+                  py-md-3
+                  col-6 col-sm-3
+                  interview-list
+                "
+              >
+                <a href="interview-1.html">
+                  <div>
+                    <img
+                      src="images/prof-icon-interview-1.png"
+                      class="rounded-circle"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div class="box-content font-weight-bold text-secondary"
+                    style="font-size: 0.85rem"
+                  >
+                    元銀行員のママ社員 Uさん
+                  </div>
+                </a>
+              </div>
+              <div
+                class="
+                  border
+                  shadow-sm
+                  rounded
+                  text-center
+                  flex-fill
+                  py-md-3
+                  col-6 col-sm-3
+                  interview-list
+                "
+              >
+                <a href="interview-2.html">
+                  <div>
+                    <img
+                      src="images/toyo3.png"
+                      class="rounded-circle"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div
+                    class="box-content font-weight-bold text-secondary"
+                    style="font-size: 0.85rem"
+                  >
+                    仕事も趣味も探求中のTさん
+                  </div>
+                </a>
+              </div>
+              <div
+                class="
+                  border
+                  shadow-sm
+                  rounded
+                  text-center
+                  flex-fill
+                  py-md-3
+                  col-6 col-sm-3
+                  interview-list
+                "
+              >
+                <a href="#">
+                  <div>
+                    <img
+                      src="images/prof-icon-interview-3.png"
+                      class="rounded-circle"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div
+                  class="box-content font-weight-bold text-secondary"
+                  style="font-size: 0.85rem"
+                >
+                    「自分に無理のない働き方」を実践中のIさん
+                  </div>
+                </a>
+              </div>
+              <div
+                class="
+                  border
+                  shadow-sm
+                  rounded
+                  text-center
+                  flex-fill
+                  py-md-3
+                  col-6 col-sm-3
+                  interview-list
+                "
+              >
+              <a href="interview-4.html">
+                <div>
+                  <img
+                    src="images/prof-icon-interview-4.png"
+                    class="rounded-circle"
+                    width="60"
+                    height="60"
+                  />
+                </div>
+                <div class="box-content font-weight-bold text-secondary"
+                  style="font-size: 0.85rem"
+                >
+                若さと可能性がまぶしい！若手エンジニアのKさん
+                </div>
+              </a>
+              </div>
+
+            </div>
+            <div style="float:right;"><a href="index.html">断片の価値の追求 トップページに戻る</a></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="center-block text-center">
+      <div id="pageTopButton">▲</div>
+    </div>
+    <footer class="bg-light">
+      <div class="text-center py-3"><a href="https://shinonomekazan.com/"><img src="images/logo-wide02.jpg" alt=""></a>
+        <p class="text-center text-black-50 small mt-1">&copy; Copyright - Shinonomekazan, 2021 All Rights Reserved.</p>
+      </div>
+       
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBPQE_jPs0Hz9QVYSRXHDFKsh83Qay_X54",
+        authDomain: "danpen-web.firebaseapp.com",
+        projectId: "danpen-web",
+        storageBucket: "danpen-web.appspot.com",
+        messagingSenderId: "84635790615",
+        appId: "1:84635790615:web:4ccf8e9d31b5bf97d89b52",
+        measurementId: "G-2NRNES3DPX",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body>
+</html>
